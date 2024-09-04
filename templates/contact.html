@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cattle Disease Prediction</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="contact" id="contact">
+      <header class="header">
+        <a href="#" class="logo"
+          ><i class="fas fa-heartbeat"></i> BovineGuard
+        </a>
+        <nav class="navbar">
+          <ul>
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+            <li><a href="{{ url_for('about') }}">About</a></li>
+            <li><a href="{{ url_for('predict') }}">Predict</a></li>
+            <li><a href="{{ url_for('reviews') }}">Reviews</a></li>
+            <li><a href="{{ url_for('contact') }}">Contact</a></li>
+          </ul>
+        </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </header>
+      <div class="form-container">
+        <h2 class="form-heading">Get in Touch</h2>
+
+        <!-- Display success message -->
+        {% with messages = get_flashed_messages() %} {% if messages %}
+        <div class="success-message">
+          {% for message in messages %}
+          <p>{{ message }}</p>
+          {% endfor %}
+        </div>
+        {% endif %} {% endwith %}
+
+        <form action="{{ url_for('contact') }}" method="POST">
+          <div class="form-group">
+            <label for="firstName">First Name:</label>
+            <input
+              type="text"
+              id="firstName"
+              name="firstName"
+              placeholder="First Name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name:</label>
+            <input
+              type="text"
+              id="lastName"
+              name="lastName"
+              placeholder="Last Name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="mobile">Mobile:</label>
+            <input
+              type="tel"
+              id="mobile"
+              name="mobile"
+              placeholder="Mobile"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Your Message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn">Send</button>
+        </form>
+        <p>Email: contact@bovineguard.com</p>
+        <p>Phone: +1-800-123-4567</p>
+      </div>
+    </section>
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+  </body>
+</html>

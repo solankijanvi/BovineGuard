@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cattle Disease Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <section class = "predict" id = "predict">
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-heartbeat"></i> BovineGuard </a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a href="{{ url_for('predict') }}">Predict</a></li>
+                <li><a href="{{ url_for('reviews') }}">Reviews</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </header>
+    <main>
+        <section class="predict-container">
+            <div class="predict-heading">
+                <h1>Predict Cattle Disease</h1>
+            </div>
+            
+            <div class="predict-layout">
+                <!-- Form Section -->
+                <div class="predict-form-container">
+                    <form action="{{ url_for('predict') }}" method="POST" class="predict-form">
+                        <div class="input-group">
+                            <label for="age">Age:</label>
+                            <input type="text" id="age" name="age" required />
+                        </div>
+
+                        <div class="input-group">
+                            <label for="breed">Breed:</label>
+                            <input type="text" id="breed" name="breed" required />
+                        </div>
+
+                        
+
+                        {% for i in range(1, 6) %}
+                        <div class="input-group">
+                            <label for="symptom{{ i }}">Symptom {{ i }} {% if i == 1 %}(Mandatory){% endif %}:</label>
+                            <select id="symptom{{ i }}" name="symptom{{ i }}" {% if i == 1 %}required{% endif %}>
+                                <option value="">Select a symptom</option>
+                                {% for symptom in symptoms %}
+                                <option value="{{ symptom }}">{{ symptom.replace('_', ' ') }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        {% endfor %}
+
+                        <div class="input-group">
+                            <input type="submit" value="Predict" class="btn-submit" />
+                        </div>
+                    </form>
+                </div>
+
+                <!-- About Section -->
+                <div class="page-content">
+                    <div class="about-icon"><i class="fas fa-info-circle"></i></div>
+                    <h2>About the Prediction Tool</h2>
+                    <p>This tool helps farmers and veterinarians predict potential diseases in cattle based on symptoms, age, breed, and weight. Early detection of diseases in cattle is crucial for ensuring the health and productivity of livestock.</p>
+                    <p>Simply enter the relevant information about your cattle and select the symptoms observed. The system will analyze the data and provide a prediction based on the trained machine learning model.</p>
+                    
+                    <!-- Prediction Result -->
+                    {% if prediction %}
+                    <div class="prediction-result">
+                        <h2>Prediction Result: {{ prediction }}</h2>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+</html>
