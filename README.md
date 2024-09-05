@@ -8,6 +8,7 @@
 - **User-Friendly Interface:** Easy-to-use web interface for farmers and veterinarians.
 - **Health Parameter Input:** Users can input various cattle health parameters for prediction.
 - **Comprehensive Results:** Displays predicted disease.
+- **Contact Form:** A built-in contact form for users to reach out with questions, suggestions, or support requests.
 
   
 ## Tech Stack
