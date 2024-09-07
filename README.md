@@ -45,10 +45,11 @@ The Predict Cattle Disease page allows users, such as farmers and veterinarians,
 
 
 
-![image](https://github.com/user-attachments/assets/08bf6ea5-1562-4cec-8dd0-a9ee93654444)
-
 ### Review Section
 The Review section allows users to submit and read reviews about the BovineGuard system. 
+
+![image](https://github.com/user-attachments/assets/08bf6ea5-1562-4cec-8dd0-a9ee93654444)
+
 
 ![image](https://github.com/user-attachments/assets/f5fbf3da-a1d0-46d6-bf57-6bb9d1199797)
 
