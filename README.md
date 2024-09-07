@@ -18,13 +18,23 @@
 - **Machine Learning:** Random Forest
 - **Database:** SQL (MySQL) or Sqlite
 
+### Homepage
+The homepage introduces users to BovineGuard and provides an overview of its functionality. The user can navigate to different sections of the website from here, including disease prediction and information pages. The homepage also includes a convenient Contact Us button for users seeking support or further information.
+
 
 ![image](https://github.com/user-attachments/assets/7c06dcba-ac61-4fa6-8cab-5246ec2ce6b4)
 
 ![image](https://github.com/user-attachments/assets/80b5b0da-e7a2-4da6-8996-b9f01e901ab6)
 
+### About Us
+
+The About Us section highlights the mission of BovineGuard—to improve the health and well-being of cattle through cutting-edge technology. This page explains the importance of early disease detection in livestock management, emphasizing how BovineGuard prevent disease outbreaks. The page also includes a Predict Disease button, making it easy for users to start diagnosing cattle health issues directly.
 
 ![image](https://github.com/user-attachments/assets/d934fcfd-8920-4b84-b08e-bba6bdad1975)
+
+### Predict Cattle Disease
+
+The Predict Cattle Disease page allows users, such as farmers and veterinarians, to input details about their cattle, including age, breed, and symptoms. The tool helps predict potential diseases based on the input data, using a trained machine learning model. Users can select up to five symptoms, and after submitting the form, the system provides a prediction result, enabling early detection of diseases, which is essential for maintaining livestock health and productivity.
 
 ![image](https://github.com/user-attachments/assets/a2734c90-7efe-4ace-bff4-d50731275827)
 
@@ -37,7 +47,14 @@
 
 ![image](https://github.com/user-attachments/assets/08bf6ea5-1562-4cec-8dd0-a9ee93654444)
 
+### Review Section
+The Review section allows users to submit and read reviews about the BovineGuard system. 
+
 ![image](https://github.com/user-attachments/assets/f5fbf3da-a1d0-46d6-bf57-6bb9d1199797)
+
+
+### Contact Section
+The Contact section provides users with various ways to get in touch with the BovineGuard team for support, inquiries, or feedback.
 
 
 ![image](https://github.com/user-attachments/assets/4fe4fc3e-4bbf-41c2-a679-43b16ac78d7a)
