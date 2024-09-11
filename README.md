@@ -1,25 +1,32 @@
 # BovineGuard
 
-**BovineGuard** is a web application designed to help predict diseases in cattle using machine learning techniques. It aims to assist farmers and veterinarians in early diagnosis of cattle health issues. The application utilizes a Random Forest model to predict diseases based on various health parameters, improving livestock care and reducing losses.
+**BovineGuard** is an advanced web application designed to predict diseases in cattle using state-of-the-art machine learning techniques. It assists farmers and veterinarians with early diagnosis, leading to improved livestock care and reduced losses.
 
-## Live Demo
+## 🌐 Live Demo
 
-You can view the live demo of this project [here](https://bovineguard.onrender.com).
+Explore the live demo of BovineGuard here: [BovineGuard](https://bovineguard.onrender.com)
 
-## Features
+<a href="https://bovineguard.onrender.com/" target="_blank">
+  <img src="https://img.shields.io/badge/-Live%20Demo-blue?style=flat-square&logo=google-chrome&logoColor=white" alt="Live Demo" />
+</a>
 
-- **Disease Prediction:** Provides accurate disease predictions using a Random Forest model.
-- **User-Friendly Interface:** Easy-to-use web interface for farmers and veterinarians.
-- **Health Parameter Input:** Users can input various cattle health parameters for prediction.
-- **Comprehensive Results:** Displays predicted disease.
-- **Contact Form:** A built-in contact form for users to reach out with questions, suggestions, or support requests. 
+## 🚀 Features
 
-  
-## Tech Stack
+- **Disease Prediction:** Accurate disease predictions using a Random Forest model.
+- **User-Friendly Interface:** Intuitive web interface designed for ease of use by farmers and veterinarians.
+- **Health Parameter Input:** Users can input various cattle health parameters for accurate predictions.
+- **Comprehensive Results:** Detailed results displaying predicted disease.
+- **Contact Form:** Integrated contact form for inquiries, feedback, and support.
+
+## 🛠️ Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Flask (Python)
-- **Machine Learning:** Random Forest
-- **Database:** SQL (MySQL) or Sqlite
+- **Machine Learning:** 
+- **Model:** Random Forest
+- **Libraries:** scikit-learn, pandas, numpy
+- **Data Preprocessing:** Feature scaling, data cleaning
+- **Evaluation Metrics:** Accuracy, Confusion Matrix
+- **Database:** SQL (MySQL or SQLite)
 
 
