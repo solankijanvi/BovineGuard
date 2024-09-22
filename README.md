@@ -27,6 +27,6 @@ Explore the live demo of BovineGuard here: [BovineGuard](https://bovineguard.onr
 - **Libraries:** scikit-learn, pandas, numpy
 - **Data Preprocessing:** Feature scaling, data cleaning
 - **Evaluation Metrics:** Accuracy, Confusion Matrix
-- **Database:** SQL (MySQL or SQLite)
+- **Database:** SQLite
 
 
