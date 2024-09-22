@@ -4,7 +4,7 @@
 
 ## 🌐 Live Demo
 
-Explore the live demo of BovineGuard here: [BovineGuard](https://bovineguard.onrender.com)
+Explore the live demo of BovineGuard here: [BovineGuard](https://bovineguard.onrender.com) 
 
 <a href="https://bovineguard.onrender.com/" target="_blank">
   <img src="https://img.shields.io/badge/-Live%20Demo-blue?style=flat-square&logo=google-chrome&logoColor=white" alt="Live Demo" />
