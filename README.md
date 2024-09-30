@@ -16,7 +16,7 @@ Explore the live demo of BovineGuard here: [BovineGuard](https://bovineguard.onr
 - **User-Friendly Interface:** Intuitive web interface designed for ease of use by farmers and veterinarians.
 - **Health Parameter Input:** Users can input various cattle health parameters for accurate predictions.
 - **Comprehensive Results:** Detailed results displaying predicted disease.
-- **Contact Form:** Integrated contact form for inquiries, feedback, and support.
+- **Contact Form:** Integrated contact form for inquiries, feedback, and support.  
 
 ## 🛠️ Tech Stack
 
