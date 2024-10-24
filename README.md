@@ -35,15 +35,15 @@ Explore the live demo of BovineGuard here: [BovineGuard](https://bovineguard.onr
 ![Screenshot 2024-09-05 170937](https://github.com/user-attachments/assets/1b2fcb1d-2b25-4d3d-b41b-5269a855074d)
 
 
+## About Page
+
 ![Screenshot 2024-09-07 201117](https://github.com/user-attachments/assets/9fda2837-2d64-42a9-ba5c-a781e3c91718)
 
 
-## About Page
+## Predict Page
 
 ![Screenshot 2024-09-07 201200](https://github.com/user-attachments/assets/67a03ba9-8ab5-4944-941e-92180a3f374f)
 
-
-## Predict Page
 
 ![Screenshot 2024-09-07 201225](https://github.com/user-attachments/assets/cc44cb88-910d-475e-be78-10287ed3c585)
 
