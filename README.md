@@ -3,7 +3,7 @@
 **BovineGuard** is an advanced web application designed to predict diseases in cattle using state-of-the-art machine learning techniques. It assists farmers and veterinarians with early diagnosis, leading to improved livestock care and reduced losses.
 
 ## 🌐 Live Demo
-
+ 
 Explore the live demo of BovineGuard here: [BovineGuard](https://bovineguard.onrender.com) 
 
 <a href="https://bovineguard.onrender.com/" target="_blank">
